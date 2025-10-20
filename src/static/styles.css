@@ -125,6 +125,23 @@ section h3 {
   word-break: break-word;
 }
 
+/* Delete/remove button for participants */
+.participant-remove {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.participant-remove:hover {
+  background: rgba(198,40,40,0.08);
+}
+
 .no-participants {
   font-size: 14px;
   color: #666;
